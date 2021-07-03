@@ -12,13 +12,30 @@ li{
 a{
     text-decoration: none;
 }
+section{
+    background-image: url("images/page-bg.jpg");
+    background-size: cover;
+
+}
+hr{
+    color: #ddd;
+}
+.container{
+    width: 100%;
+    padding-left: 30%;
+    padding-right: 10%;
+}
 .sidebar-menu{
     width: 25%;
     background: #A43F49;
     position: absolute;
+    position: fixed;
+    height: 100vh; 
     top: 0;
     left:0;
     text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .sidebar-profile-image img{
     border-radius: 50%;
@@ -73,7 +90,85 @@ a{
     padding: 20px 0;
     color: #FFFFFF;
 }
-.about-me{
-    padding-left: 30%;
-    width: 100%;
+.about-me >h2{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.about-me >h4{
+    color: #FFFFFF;
+
+}
+.about-me h4{
+    text-align: center;
+}
+.reflux{
+    display: flex;
+    padding: 30px 0;
+}
+.left-column{
+    width: 80%;
+    margin: 20px;
+}
+.left-column img{
+    width: 80%;
+    border-radius: 6px;
+}
+.left-column button a, .right-column button a{
+    display: inline-block;
+    padding: 12px 20px;
+    color: #A43F49;
+    font-weight: 500;
+    font-size: 18px;
+}
+.left-column, .right-column{
+    width: 50%;    
+}
+.right-column >h2, .left-column >h2{
+    color: #FFFFFF;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.right-column p, .left-column p{
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.right-column img{
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.expertise-area >h2, h4{
+    text-align: center;
+    color: #FFFFFF;
+}
+.expertise-area >h2{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+.expertise-area >h4{
+    padding: 20px;
+    font-size: 16px;
+}
+.expertise-details{
+    display: flex;
+}
+.left-side-expert, .right-side-expert{
+    padding: 40px;
+    background-color: rgba(19, 19, 17, 0.3);
+    color: #FFFFFF;
+    line-height: 2rem;
+}
+.left-side-expert{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.right-side-expert{
+    margin-bottom: 10px;
 }
