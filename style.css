@@ -177,3 +177,46 @@ hr{
 .right-side-expert{
     margin-bottom: 10px;
 }
+
+
+.my-work h2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.image-gallery{
+    display: flex;
+}
+.left-image img, .right-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.left-image{
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.tab ul{
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+}
+.tab ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.tab ul li a{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+.tab ul li.active a{
+    color: #A43F49 ;
+    border-bottom: 2px solid #A43F49;
+}
+.tab ul li:hover a{
+    color: #A43F49;
+    border-bottom: 2px solid #A43F49;
+}
