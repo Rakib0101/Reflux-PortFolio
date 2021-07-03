@@ -14,8 +14,7 @@ a{
 }
 section{
     background-image: url("images/page-bg.jpg");
-    background-size: cover;
-
+    background-attachment: fixed;
 }
 hr{
     color: #ddd;
@@ -30,6 +29,7 @@ hr{
     background: #A43F49;
     position: absolute;
     position: fixed;
+    z-index: 100000;
     height: 100vh; 
     top: 0;
     left:0;
