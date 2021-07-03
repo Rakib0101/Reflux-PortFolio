@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.sidebar-menu{
+    width: 25%;
+    background: #A43F49;
+    position: absolute;
+    top: 0;
+    left:0;
+    text-align: center;
+}
+.sidebar-profile-image img{
+    border-radius: 50%;
+    border: none;
+    margin-top: 30px;
+}
+.sidebar-menu h2{
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+.sidebar-menu h4{
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.sidebar-menu ul{
+    margin-top: 40px;
+}
+.sidebar-menu ul.main-menu li{
+    padding: 20px 0;
+    border-bottom: 3px solid #FFFFFF;
+}
+.sidebar-menu ul li.active, .sidebar-menu ul li.active a{
+    background: #FFFFFF;
+    color: #A43F49;
+}
+.sidebar-menu ul li:hover{
+    background: #FFFFFF;
+    transition: .5s;
+}
+.sidebar-menu ul li:hover a{
+    color: #A43F49;
+}
+.sidebar-menu ul li a{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.social-profile ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+}
+.social-profile ul li{
+    padding: 6px 8px;
+    background: #2c2c2c;
+    margin: 2px;
+}
+.copyright-text{
+    padding: 20px 0;
+    color: #FFFFFF;
+}
+.about-me{
+    padding-left: 30%;
+    width: 100%;
+}
