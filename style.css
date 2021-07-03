@@ -220,3 +220,47 @@ hr{
     color: #A43F49;
     border-bottom: 2px solid #A43F49;
 }
+
+
+.contact-me h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    padding: 20px 0;
+}
+.contact-me form{
+    padding-top: 20px;
+    text-align: center;
+}
+.form-first-row{
+    display: flex;
+}
+.form-first-row .name, .form-first-row .email{
+    width: 50%;
+}
+.form-first-row .name{
+    padding-right: 10px;
+}
+.form-first-row .email{
+    padding-left: 10px;
+}
+.contact-me form input{
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 10px ;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 1px solid #ddd;
+    color: #FFFFFF;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #ddd;
+}
+form input[type="submit"]{
+    width: fit-content;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
